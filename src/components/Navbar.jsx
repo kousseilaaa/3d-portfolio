@@ -29,7 +29,7 @@ const Navbar = () => {
         });
       },
       {
-        threshold: 0.2,
+        threshold: 0.1,
         rootMargin: '0px 0px -50% 0px'
       }
     );
@@ -53,7 +53,7 @@ const Navbar = () => {
           }}
         >
           <p className='text-white text-[26px] lg:text-[36px] font-bold pointer-events-auto cursor-pointer flex'>
-            FK
+            KM
           </p>
         </Link>
 
