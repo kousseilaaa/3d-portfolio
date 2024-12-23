@@ -43,8 +43,8 @@ const ProjectCard = ({
       </div>
 
       <div className={`w-full md:w-2/5 px-6 md:p-16 flex flex-col justify-center ${isEven ? "text-left md:text-left" : "text-left md:text-right"}`}>
-        <h3 className='text-white font-medium text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl lg:text-5xl leading-tight'>{name}</h3>
-        <p className='mt-4 text-secondary text-sm sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl'>{description}</p>
+        <h3 className='text-white font-medium text-md sm:text-lg md:text-xl  xl:text-3xl 2xl:text-4xl lg:text-5xl leading-tight text-left'>{name}</h3>
+        <p className='mt-4 text-secondary text-sm sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl text-left'>{description}</p>
       </div>
     </motion.div>
   );
@@ -52,7 +52,7 @@ const ProjectCard = ({
 
 const Portfolio = () => {
   return (
-    <div className='text-center md:text-left md:px-20 lg:px-40'>
+    <div className='text-center md:text-left'>
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionText}`}>Portfolio</h2>
       </motion.div>
