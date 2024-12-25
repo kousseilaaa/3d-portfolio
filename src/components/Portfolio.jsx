@@ -52,7 +52,7 @@ const ProjectCard = ({
 
 const Portfolio = () => {
   return (
-    <div className='text-center md:text-left'>
+    <div className='text-center md:text-left px-10'>
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionText}`}>Portfolio</h2>
       </motion.div>
